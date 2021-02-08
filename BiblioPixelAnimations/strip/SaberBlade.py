@@ -3,7 +3,6 @@ from bibliopixel.colors import COLORS
 
 
 class SaberBlade(Strip):
-    COLOR_DEFAULTS = ('colors', [COLORS.Red])
 
     def __init__(self, layout, speed=1, **kwds):
         super().__init__(layout, **kwds)
